@@ -1,0 +1,25 @@
+{
+  "name": "fancybot",
+  "version": "1.0.0",
+  "description": "BOT for Fancy(Team management)",
+  "main": "index.js",
+  "scripts": {
+    "test": "!!help"
+  },
+  "keywords": [
+    "Discordbot",
+    "Fancy",
+    "TM",
+    "BOT",
+    "Discord",
+    "Bots",
+    "DiscordBots",
+    "Savage"
+  ],
+  "author": "ℱคภςץ | Savage",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "discord.js-commando": "^0.9.0"
+  }
+}
