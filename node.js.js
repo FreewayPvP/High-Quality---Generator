@@ -27,7 +27,7 @@ client.registry
     
     .registerDefaultGroups()
     .registerDefaultTypes()
-    .registerDefaultCommands({ help: false })
+    .registerDefaultCommands()
     .registerCommandsIn(path.join(__dirname, 'fun stuff'))
 
-client.login('Mzk4NjM5MzA2MzA4MTkwMjE5.DTFuSg.H_RoIjHXJX63sgJBNkoxX9J7_n0');
+client.login('Mzk4NjM5MzA2MzA4MTkwMjE5.DTv5UA.NlahSBzti24sQlX7HuCU7tRxOQY');
