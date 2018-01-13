@@ -1,0 +1,91 @@
+const commando = require('discord.js-commando');
+
+class GetAltCommand extends commando.Command {
+    constructor(client) {
+        super(client, {
+            name: 'getmc',
+            group: 'fancy',
+            memberName: 'getmc',
+            description: 'Every 20Min 1 Free ALT!',
+            throttling: {
+                usages: 1,
+                duration: 1300
+            }
+        });
+    }
+
+async run(message, args) {
+    var fagg = Math.floor(Math.random() * 15) +1
+    message.delete(10000)
+    if (fagg == 1) {
+        message.author.send("zerogman493@comcast.net:galaxies1")
+        }
+    if (fagg == 2) {
+        message.author.send("Niclas.burow@web.de:Lynn2009")
+        }
+    if (fagg == 3) {
+        message.author.send("vaneffenc@yahoo.com:pucepar7")
+        }
+    if (fagg == 4) {
+        message.author.send("rcates777@yahoo.com:Tolkien123")
+        }
+    if (fagg == 5) {
+        message.author.send("sonnyw@live.co.uk:voxon10vox")
+        }
+    if (fagg == 6) {
+        message.author.send("Cruiseyboo@gmail.com:Cruise99")
+        }
+    if (fagg == 7) {
+        message.author.send("wouter.colla@gmail.com:meertje1")
+        }
+        if (fagg == 8) {
+            message.author.send("benito_210300@hotmail.com:Magicianyet1")
+            }
+            if (fagg == 9) {
+                message.author.send("kaspersandersen1@gmail.com:ostemad1")
+                }
+                if (fagg == 10) {
+                    message.author.send("michal.brokuta@gmail.com:Michal16091997")
+                    }
+                    if (fagg == 11) {
+                        message.author.send("tara@hartes.us:Bcoll3g3")
+                        }
+                        if (fagg == 12) {
+                            message.author.send("joshuarosini@rocketmail.com:Dec12th1996")
+                            }
+                            if (fagg == 13) {
+                                message.author.send("jean_bernard.wirth@bbox.fr:lydi8435")
+                                }
+                                if (fagg == 14) {
+                                    message.author.send("lion.schabert@web.de:stein5kohle")
+                                    }
+                                    if (fagg == 15) {
+                                        message.author.send("technohaver@yahoo.de:bcJApw9r")
+                                        }
+                                        if (fagg == 16) {
+                                            message.author.send("ALT")
+                                            }
+                                            if (fagg == 17) {
+                                                message.author.send("ALT")
+                                                }
+                                                if (fagg == 18) {
+                                                    message.author.send("ALT")
+                                                    }
+                                                    if (fagg == 19) {
+                                                        message.author.send("ALT")
+                                                        }
+                                                        if (fagg == 20) {
+                                                            message.author.send("ALT")
+                                                            }
+                                                            if (fagg == 21) {
+                                                                message.author.send("ALT")
+                                                                }
+                                                                if (fagg == 22) {
+                                                                    message.author.send("ALT")
+                                                                    }
+
+
+    return message.channel.sendMessage("Check your DM's!").then(message => message.delete(10000))
+}}
+
+module.exports = GetAltCommand;
